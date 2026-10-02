@@ -1,0 +1,26 @@
+{
+  "name": "cortico-world-companion",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Cortico World 扩展：主动陪伴——按可配置节奏把「陪伴时钟到点」作为内部事件唤醒 bot,深夜静默;说不说由 bot 自主决定,以不作为为默认。",
+  "license": "MIT",
+  "keywords": [
+    "cortico-world",
+    "cortico",
+    "companion",
+    "proactive"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "main": "./src/index.ts",
+  "cortico": {
+    "kind": "world",
+    "api": 5
+  },
+  "files": [
+    "src",
+    "ENV_PROMPT.md",
+    "README.md"
+  ]
+}
